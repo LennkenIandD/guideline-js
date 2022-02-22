@@ -377,10 +377,3 @@ total = subtotal + (+myInput.value);
 
 so that the + + is not misread as ++.
 
-## eval is Evil
-
-The eval function is the most misused feature of JavaScript. Avoid it.
-
-eval has aliases. Do not use the Function constructor. Do not pass strings to setTimeout or setInterval.
-
-(forked from http://javascript.crockford.com/code.html)
